@@ -1,9 +1,15 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "muhd syazwan",
+  "description": "A project that does something awesome",
+  "keywords": [ "descriptive", "related", "freecodecamp" ],
+  "license": "MIT",
+  "version": "1.2.0",
 	"dependencies": {
-		"express": "^4.18.2"
-	},
+    "package-name": "version",
+    "express": "4.14.0"
+}
+,
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
